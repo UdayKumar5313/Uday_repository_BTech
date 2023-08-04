@@ -1,13 +1,13 @@
-body {
-  text-align: center;
-  background-color: #283149;
-}
-
 header {
   display: flex;
   justify-content: left;
   align-items: left;
   }
+
+body {
+  text-align: center;
+  background-color: #283149;
+}
 
 h1 {
   font-size: 5rem;
