@@ -4,23 +4,19 @@ body {
   background-color: #283149;
 }
 
-h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+
+
+header {
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
-  diplay: flex;
-  justify-content: right;
-  align-items: right;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
 
 .w {
   background-image: url("https://www.freepnglogos.com/uploads/doraemon-png/blink-doraemon-photo-11.png");
