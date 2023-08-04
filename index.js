@@ -88,6 +88,10 @@ function makeSound(key) {
       var audio = new Audio('sounds/kick-bass.mp3');
       audio.play();
       break;
+   case "A":
+      var audio = new Audio('sounds/naruto ringtone.mp3');
+      audio.play();
+      break;
 
     default:
       console.log(buttonInnerHTML);
