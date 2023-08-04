@@ -20,6 +20,9 @@ h1 {
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
+  diplay: flex;
+  justify-content: left;
+  align-items: left;
 }
 
 .w {
