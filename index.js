@@ -89,7 +89,7 @@ function makeSound(key) {
       audio.play();
       break;
    case "A":
-      var audio = new Audio('sounds/naruto ringtone.mp3');
+      var audio = new Audio('sounds/Naruto ringtone.mp3');
       audio.play();
       break;
 
