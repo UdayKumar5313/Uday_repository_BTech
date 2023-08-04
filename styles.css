@@ -3,6 +3,12 @@ body {
   background-color: #283149;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
