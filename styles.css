@@ -18,8 +18,8 @@ footer {
   color: #DBEDF3;
   font-family: sans-serif;
   diplay: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: right;
+  align-items: right;
 }
 
 .w {
