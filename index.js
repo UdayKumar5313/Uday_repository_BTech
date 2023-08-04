@@ -15,6 +15,12 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 
   });
 
+// Detecting button press
+document.querySelector(".a").addEventListener("click", function() {
+  var audio = new Audio('sounds/snare.mp3');
+  audio.play();
+});
+
 // Detecting keyboard press
 document.addEventListener("keydown", function(event) {
   if (event.key === "a") {
@@ -36,6 +42,14 @@ document.addEventListener("keypress", function(event) {
 
 });
 
+
+// Detecting keyboard press
+document.addEventListener("keydown", function(event) {
+  if (event.key === "a") {
+    var audio = new Audio('sounds/snare.mp3');
+    audio.play();
+  }
+});
 
 function makeSound(key) {
 
